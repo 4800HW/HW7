@@ -2,7 +2,7 @@ package proxy;
 
 import java.util.List;
 
-public class MusicStreamingApp {
+public class driver {
     public static void main(String[] args) {
         SongService realService = new SongServiceT();
         SongService songProxy = new SongProxy(realService);
